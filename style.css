@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+a, a:link, a:visited{
+    text-decoration: none;
+    color: inherit;
+}
+
+body{
+    background-color: #171717;
+    color: #F9F9F9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'DM Sans', sans-serif;
+}
+
+main{
+    width: 70%;
+    margin: 0 150px;
+    border: thin solid red;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 35px;
+    border: thin solid red;
+}
+
+nav .logo{
+    font-size: 26px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+nav .logo:hover{
+    color: #00DF5E;
+}
+
+nav ul{
+    display: flex;
+    gap: 45px;
+    list-style: none;
+}
+
+nav ul li{
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+nav ul li:hover{
+    color: #00DF5E;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 110px;
+}
+
+header .resume{
+    width: 345px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header .resume .apresentacao{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+header .resume .profissao{
+    color: #828282;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 18px;
+}
+
+header .resume .buttons{
+    display: flex;
+    gap: 15px;
+    margin-top: 35px;
+}
+
+header .resume .buttons .button{
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.buttons .button:hover{
+    cursor: pointer;
+}
+
+.buttons .button.download-cv{
+    padding-left: 27px;
+    padding-right: 27px;
+    background-color: #00DF5E;
+    color: #171717
+}
+
+.buttons .button.entrar-contato{
+    padding-left: 18px;
+    padding-right: 18px;
+    color: #f9f9f9;
+    border: 1px solid #333333; 
+}
+
+header .image-container{
+    width: 300px;
+    height: 254px;
+    position: relative;
+}
+
+header .image-container img{
+    width: 100%;
+}
+
+section.about-me{
+    margin-top: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section.about-me .about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about h1{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 42px;
+}
+
+.about p{
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #828282;
+    text-align: center;
+    width: 55%;
+    line-height: 32px;
+}
+
+.info-container{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 85px;
+    width: 80%;
+    gap: 1rem;
+    border: thin solid white;
+}
+
+.info-container .info-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 15rem;
+    border: thin solid salmon;
+}
+
+.info-container .info-item .info-logo{
+    background-color: #212121;
+    padding: 15px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.info-container .info-item .info-logo img{
+    width: 100%;
+}
+
+.info-container .info-item .info-label{
+    margin-top: 19px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+}
+
+.info-container .info-item .info-text{
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #828282;
+}
+
+section.projetos .titulo-secao{
+    width: 100%;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 42px;
+    text-align: center;
+    margin-top: 127px;
+}
+
+section.projetos .container-projetos{
+    border: thin solid white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 32px;
+    margin-top: 30px;
+}
+
+.container-projetos .item-projeto{
+    width: 350px;
+    border: 1px solid #333333;
+    background: linear-gradient(0deg, #212121, #212121), linear-gradient(0deg, #333333, #333333);
+    display: flex;
+    flex-direction: column;
+    padding: 20px 25px;
+}
+
+.item-projeto .logo{
+    width: 300px;
+    height: 130px;
+    margin-top: 20px;
+    background-color: #171717;
+    border: 1px solid #333333;
+}
+
+.item-projeto .titulo{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    color: #FFFFFF;
+    margin-top: 23px;
+}
+
+.item-projeto .tecnologias{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #828282;
+    margin-top: 6px;
+}
+
+
+section.servicos .titulo-secao{
+    width: 100%;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 42px;
+    text-align: center;
+    margin-top: 127px;
+}
+
+section.servicos .container-servicos{
+    border: thin solid white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 32px;
+    margin-top: 30px;
+}
+
+.container-servicos .item-servico{
+    width: 350px;
+    border: 1px solid #333333;
+    background: linear-gradient(0deg, #212121, #212121), linear-gradient(0deg, #333333, #333333);
+    display: flex;
+    flex-direction: column;
+    padding: 20px 25px;
+}
+
+.item-servico .logo{
+    width: 300px;
+    height: 130px;
+    margin-top: 20px;
+    background-color: #171717;
+    border: 1px solid #333333;
+}
+
+.item-servico .titulo{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    color: #FFFFFF;
+    margin-top: 23px;
+}
+
+
+
+
+
+
+section.skills .titulo-secao{
+    width: 100%;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 42px;
+    text-align: center;
+    margin-top: 127px;
+}
+
+section.skills .container-skills{
+    border: thin solid white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 32px;
+    margin-top: 30px;
+}
+
+.container-skills .item-skill{
+    width: 350px;
+    border: 1px solid #333333;
+    background: linear-gradient(0deg, #212121, #212121), linear-gradient(0deg, #333333, #333333);
+    display: flex;
+    flex-direction: column;
+    padding: 20px 25px;
+}
+
+.item-skill .logo{
+    width: 300px;
+    height: 130px;
+    margin-top: 20px;
+    background-color: #171717;
+    border: 1px solid #333333;
+}
+
+
+
+
+
+footer{
+    background-color: #212121;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    margin-top: 185px;
+    width: 100%;
+}
+
+footer .autor{
+    color: #00DF5E;
+    margin-left: 5px;
+}
+
+@media only screen and (max-width: 1600px) {
+    main{
+        width: 80%;
+    }
+
+    .about p{
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    main{
+        width: 90%;
+    }
+
+    .about p{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+
+    main{
+        width: 100%;
+        padding: 0 2rem;
+    }
+
+    .info-container{
+        width: 100%;
+    }
+
+    .about p{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    nav{
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items:center;
+    }
+
+    nav .logo{
+        width: 100%;
+        text-align: center;
+    }
+
+    nav ul{
+        margin-top: 1rem;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content:space-between;
+        align-items:center;
+        gap: 1rem;
+    }
+
+    header .image-container{
+        display: none;
+    }
+}
