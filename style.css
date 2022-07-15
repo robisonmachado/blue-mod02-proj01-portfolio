@@ -24,7 +24,6 @@ body{
 main{
     width: 70%;
     margin: 0 150px;
-    border: thin solid red;
 }
 
 nav{
@@ -32,7 +31,6 @@ nav{
     justify-content: space-between;
     align-items: center;
     margin-top: 35px;
-    border: thin solid red;
 }
 
 nav .logo{
@@ -168,7 +166,6 @@ section.about-me .about{
     margin-top: 85px;
     width: 80%;
     gap: 1rem;
-    border: thin solid white;
 }
 
 .info-container .info-item{
@@ -177,7 +174,6 @@ section.about-me .about{
     justify-content: center;
     align-items: center;
     min-width: 15rem;
-    border: thin solid salmon;
 }
 
 .info-container .info-item .info-logo{
@@ -219,7 +215,6 @@ section.projetos .titulo-secao{
 }
 
 section.projetos .container-projetos{
-    border: thin solid white;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -271,7 +266,6 @@ section.servicos .titulo-secao{
 }
 
 section.servicos .container-servicos{
-    border: thin solid white;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -319,7 +313,6 @@ section.skills .titulo-secao{
 }
 
 section.skills .container-skills{
-    border: thin solid white;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
